@@ -2,11 +2,12 @@ function formatMessage(message,maxLength){
 
 
     if (message.length <= maxLength) {
-        console.log(message);
+       return message;
         
     }
     else{
-        console.log(message.slice(0,maxLength)+ '...');
+       return message.slice(0, maxLength) + '...';
+
     }
 }
 
